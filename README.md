@@ -1,203 +1,172 @@
-# Banking Transactions Financial Behaviour
+Banking Transactions Financial Behaviour
+👩‍💻 About Me
 
-## 👩‍💻 About Me
+Shrishti Rana
+Data Analyst
 
-**Shrishti Rana**
-**Data Analyst**
+📊 Project Overview
 
----
+This project analyzes financial transaction data to understand customer behaviour, transaction patterns, branch performance, transaction channel usage, loan status, account types, and monthly transaction trends.
 
-## 📊 Project Overview
+The project demonstrates an end-to-end data analytics workflow using Python, Excel, MySQL, and Power BI to transform raw transaction data into meaningful business insights.
 
-This project analyzes financial transaction data to understand customer behaviour, transaction patterns, branch performance, transaction channels, loan status, and monthly transaction trends.
-
-The project uses **Python, Excel, MySQL, and Power BI** to perform data cleaning, exploratory data analysis, SQL-based analysis, and interactive data visualization.
-
----
-
-## 🎯 Objectives
-
-* Analyze financial transaction patterns
-* Understand customer transaction behaviour
-* Identify high-value customers
-* Analyze branch-wise transaction performance
-* Analyze transaction channel usage
-* Study loan status distribution
-* Analyze monthly transaction trends
-* Build an interactive Power BI dashboard
-
----
-
-
-## 📁 Project Structure
-
-```text
+🎯 Project Objectives
+Analyze financial transaction patterns
+Understand customer transaction behaviour
+Identify high-value customers
+Analyze branch-wise transaction performance
+Analyze transaction channel usage
+Study loan status distribution
+Analyze account type performance
+Identify monthly transaction trends
+Build an interactive Power BI dashboard
+📁 Project Structure
 banking-transactions-financial-behaviour/
 │
 ├── data/
-│   ├── finance_transactions_1000_records.csv
 │   └── finance_transactions_1000_records.xlsx
 │
 ├── notebook/
 │   └── finance_data_analysis.ipynb
 │
 ├── power_bi/
-│   ├── dashboard_overview.jpeg
-│   └── finance_dashboard.pbix
+│   ├── finance_dashboard.pbix
+│   └── dashboard_overview.jpeg
 │
 ├── sql/
 │   ├── finance_analysis_queries.sql
 │   └── finance_analysis_queries.pdf
 │
 └── README.md
+📌 Dataset
 
----
+The dataset contains 1,000 financial transaction records with information related to customers, transactions, accounts, branches, channels, loan status, and credit scores.
 
-## 📌 Dataset
+Main Columns
+Transaction_ID
+Date
+Customer_ID
+Customer_Name
+Account_Type
+Transaction_Type
+Amount
+Branch
+Channel
+Loan_Status
+Credit_Score
+🛠️ Tools & Technologies
+Tool	Purpose
+Python	Data cleaning and exploratory data analysis
+Pandas	Data manipulation and analysis
+Matplotlib	Data visualization
+Excel	Pivot tables, analysis and charts
+MySQL	SQL-based data analysis
+Power BI	Interactive dashboard and business insights
+🔍 Analysis Performed
+🐍 Python
 
-The dataset contains **1,000 financial transaction records** and includes the following fields:
+Python and Pandas were used for data preparation and exploratory analysis.
 
-* Transaction_ID
-* Date
-* Customer_ID
-* Customer_Name
-* Account_Type
-* Transaction_Type
-* Amount
-* Branch
-* Channel
-* Loan_Status
-* Credit_Score
+The analysis included:
 
----
-
-## 🛠️ Tools & Technologies
-
-| Tool       | Purpose                                |
-| ---------- | -------------------------------------- |
-| Python     | Data cleaning and exploratory analysis |
-| Pandas     | Data manipulation                      |
-| Matplotlib | Data visualization                     |
-| Excel      | Pivot tables and charts                |
-| MySQL      | SQL-based data analysis                |
-| Power BI   | Interactive dashboard                  |
-
----
-
-## 🔍 Analysis Performed
-
-### Python
-
-The dataset was loaded and analyzed using Pandas. Data preparation included checking data quality, handling data types, and creating additional fields such as Month for trend analysis.
-
-The analysis includes:
-
-* Transaction summary
-* Customer analysis
-* High-value customer identification
-* Branch performance
-* Channel usage
-* Loan status analysis
-* Monthly transaction trends
-
-### Excel
+Data loading
+Data cleaning
+Data quality checks
+Data type handling
+Customer analysis
+High-value customer identification
+Branch performance analysis
+Channel usage analysis
+Loan status analysis
+Monthly transaction trend analysis
+📗 Excel
 
 Excel was used for:
 
-* Pivot tables
-* Summary analysis
-* Branch-wise analysis
-* Channel usage analysis
-* Loan status analysis
-* Monthly trend analysis
-* Data visualization
+Data analysis
+Pivot tables
+Customer analysis
+Branch-wise analysis
+Channel usage analysis
+Loan status analysis
+Monthly trend analysis
+Charts and visualizations
+🗄️ MySQL
 
-### SQL
+MySQL was used to perform SQL-based business analysis.
 
-MySQL was used to perform analytical queries including:
+The SQL analysis included:
 
-* Total number of transactions
-* Total transaction value
-* Average transaction value
-* Top 10 customers
-* Branch-wise performance
-* Channel usage
-* Loan status distribution
-* Monthly transaction trends
+Total customers
+Total transaction value
+Average transaction value
+Top 10 customers
+Branch performance
+Channel usage
+Loan status analysis
+Account type analysis
+Monthly transaction trends
+📊 Power BI
 
-### Power BI
+An interactive Power BI dashboard was created to provide a visual overview of the financial transaction data.
 
-An interactive dashboard was created to visualize:
+The dashboard includes:
 
-* Total Customers
-* Total Transaction Value
-* Average Transaction Value
-* Top 10 Customers
-* Loan Status
-* Account Type
-* Branch Performance
-* Channel Usage
-* Monthly Transaction Trend
+Total Customers
+Total Transaction Value
+Average Transaction Value
+Top 10 Customers
+Loan Status
+Account Type
+Branch Performance
+Channel Usage
+Monthly Transaction Trend
+📊 Power BI Dashboard
+Dashboard Preview
 
----
+The Power BI .pbix file is available in the power_bi folder.
 
-## 📊 Power BI Dashboard
+💡 Key Business Insights
 
-### Dashboard Preview
+The analysis provides the following key business insights:
 
-![Power BI Dashboard](power_bi/dashboard_overview.jpeg)
+Total Transaction Value: 102.08M
+Account Type Analysis: Credit accounts represent the highest transaction value.
+Best Branch Performance: Bangalore has the highest transaction value among the branches.
+Loan Status: 51.1% of transactions are approved, while 48.9% are rejected.
+Most Used Channel: Online is the most frequently used transaction channel.
+High-Value Customers: The dashboard identifies the Top 10 customers based on total transaction value.
+Monthly Transaction Trend: Transaction values fluctuate across the months, highlighting changes in customer transaction activity.
+📈 Project Outcome
 
-The Power BI `.pbix` file is available in the `power-bi` folder.
+This project demonstrates an end-to-end data analytics workflow:
 
----
+Raw Data → Data Cleaning → Exploratory Analysis → SQL Analysis → Excel Analysis → Power BI Dashboard → Business Insights
 
-## 💡 Key Business Insights
+The project showcases how different data analytics tools can be combined to analyze financial transaction data and present findings in a clear and business-focused manner.
 
-The analysis provides insights into:
+👩‍💻 Skills Demonstrated
+Data Cleaning
+Exploratory Data Analysis
+Python
+Pandas
+SQL
+MySQL
+Excel
+Pivot Tables
+Data Visualization
+Power BI
+Dashboard Development
+Business Analysis
+Business Intelligence
+📂 Project Files
+Data: Financial transaction dataset
+Notebook: Python data analysis and exploration
+Power BI: Interactive dashboard and dashboard preview
+SQL: SQL queries and PDF documentation
+README: Project documentation
+📌 Project Summary
 
-- **Total Transaction Value:** 102.08M
-- **Account Type Analysis:** Credit accounts represent the highest transaction value.
-- **Best Branch Performance:** Bangalore has the highest transaction value among the branches.
-- **Loan Status:** 51.1% of transactions are rejected, while 48.9% are approved.
-- **Most Used Channel:** Online is the most frequently used transaction channel.
-- **High-Value Customers:** The dashboard identifies the Top 10 customers based on total transaction value.
-- **Monthly Transaction Trend:** Transaction values fluctuate across the months, highlighting changes in customer transaction activity.
+This project provides a practical demonstration of financial transaction analysis using multiple data analytics tools. It combines technical data analysis with business-focused visualization to identify customer behaviour, transaction patterns, and key performance insights.
 
----
-
-## 📈 Project Outcome
-
-The project demonstrates an end-to-end data analytics workflow:
-
-**Raw Data → Data Cleaning → Exploratory Analysis → SQL Analysis → Excel Analysis → Power BI Dashboard**
-
-It provides a practical example of using multiple data analytics tools to transform transaction data into meaningful business insights.
-
----
-
-## 👩‍💻 Skills Demonstrated
-
-* Data Cleaning
-* Exploratory Data Analysis
-* Python / Pandas
-* SQL
-* Excel Pivot Tables
-* Data Visualization
-* Power BI
-* Business Analysis
-* Dashboard Development
-
----
-
-## 📂 Files Included
-
-* `data/` — Dataset
-* `notebooks/` — Python analysis notebook
-* `sql/` — SQL queries and PDF documentation
-* `power-bi/` — Power BI dashboard and preview image
-
----
-
-## 📌 Note
-
-This project is created for educational and portfolio purposes.
+Created by Shrishti Rana | Data Analyst
