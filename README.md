@@ -28,27 +28,28 @@ The project uses **Python, Excel, MySQL, and Power BI** to perform data cleaning
 
 ---
 
+
 ## 📁 Project Structure
 
 ```text
 banking-transactions-financial-behaviour/
 │
 ├── data/
+│   ├── finance_transactions_1000_records.csv
 │   └── finance_transactions_1000_records.xlsx
 │
-├── notebooks/
+├── notebook/
 │   └── finance_data_analysis.ipynb
 │
-├── power-bi/
-│   ├── finance_dashboard.pbix
-│   └── dashboard_overview.jpg
+├── power_bi/
+│   ├── dashboard_overview.jpeg
+│   └── finance_dashboard.pbix
 │
 ├── sql/
 │   ├── finance_analysis_queries.sql
 │   └── finance_analysis_queries.pdf
 │
 └── README.md
-```
 
 ---
 
@@ -144,7 +145,7 @@ An interactive dashboard was created to visualize:
 
 ### Dashboard Preview
 
-![Power BI Dashboard](power-bi/dashboard_overview.jpeg)
+![Power BI Dashboard](power_bi/dashboard_overview.jpeg)
 
 The Power BI `.pbix` file is available in the `power-bi` folder.
 
@@ -154,13 +155,13 @@ The Power BI `.pbix` file is available in the `power-bi` folder.
 
 The analysis provides insights into:
 
-* **Customer Value:** Identification of customers contributing the highest transaction value helps highlight high-value customer segments.
-* **Branch Performance:** Branch-wise transaction analysis helps compare transaction values across different branches.
-* **Channel Usage:** Analysis of transaction channels shows which channels are most frequently used by customers.
-* **Loan Status:** The distribution of loan statuses provides an overview of approved and rejected loan transactions.
-* **Account Types:** Transaction values can be compared across different account types to understand their contribution.
-* **Monthly Trends:** Monthly transaction analysis helps identify changes and patterns in transaction value throughout the year.
-* **Transaction Behaviour:** Analysis of transaction types and amounts provides an overview of overall customer financial behaviour.
+- **Total Transaction Value:** 102.08M
+- **Account Type Analysis:** Credit accounts represent the highest transaction value.
+- **Best Branch Performance:** Bangalore has the highest transaction value among the branches.
+- **Loan Status:** 51.1% of transactions are rejected, while 48.9% are approved.
+- **Most Used Channel:** Online is the most frequently used transaction channel.
+- **High-Value Customers:** The dashboard identifies the Top 10 customers based on total transaction value.
+- **Monthly Transaction Trend:** Transaction values fluctuate across the months, highlighting changes in customer transaction activity.
 
 ---
 
