@@ -156,9 +156,9 @@ The Power BI `.pbix` file is available in the `power_bi` folder.
 The analysis provides insights into:
 
 - **Total Transaction Value:** 102.08M
-- **Account Type Analysis:** Credit accounts represent the highest transaction value.
-- **Best Branch Performance:** Bangalore has the highest transaction value among the branches.
-- **Loan Status:** 48.9% of transactions are rejected, while 51.1% are approved.
+- **Account Type Analysis:** CUrrent accounts represent the highest transaction value.
+- **Best Branch Performance:** Mumbai has the highest transaction value among the branches.
+- **Loan Status:** 48.9% of transactions are approved, while 51.1% are rejected.
 - **Most Used Channel:** Online is the most frequently used transaction channel.
 - **High-Value Customers:** The dashboard identifies the Top 10 customers based on total transaction value.
 - **Monthly Transaction Trend:** Transaction values fluctuate across the months, highlighting changes in customer transaction activity.
